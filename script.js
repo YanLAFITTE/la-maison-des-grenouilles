@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function rearrangeBoxes() {
     featureBoxes.forEach((box, index) => {
-      const newLeft = (index % 10) * 120 + 60;
+      const newLeft = (index % 10) * 160 ;
       const newTop = Math.floor(index / 10) * 100 + 240;
       audio1.pause();
       setTimeout(() => {

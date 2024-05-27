@@ -4,6 +4,11 @@
   padding: 0;
   font-family: Arial, sans-serif;
 }
+a {
+  color: inherit !important;
+  font-size: inherit !important;
+  text-decoration: none;
+}
 
 body {
   display: flex;
@@ -68,13 +73,11 @@ body {
   opacity: 0;
   animation: fadeInUp 1s forwards;
   position: absolute;
-  transform: translate(-20%, -20%);
 }
 
 .feature-box img {
   height: 140px;
   width: 140px;
-  transform: translateX(50%);
 }
 
 @keyframes fadeInUp {
